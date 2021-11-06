@@ -1,0 +1,199 @@
+/*-----------------------------------
+Responsive design start from here
+----------------------------------*/
+
+
+@media screen and (max-width: 667px) {
+
+    .services .services-content .card,
+    .skill .skill-content .column,
+    .about .about-content .left, .contract .contract-content .colmn {
+        width: 100%;
+        margin-bottom: 30px;
+
+    }
+    .home{
+     background-image: url('img/mithun.png'), 
+                      linear-gradient(to right, #111, #222);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        
+    }
+    .about-content .left {
+
+        width: 100% !important;
+        text-align: center !important;
+        margin-left: 50px !important;
+        margin-bottom: 30px !important
+    }
+
+    .banner-img img{
+      width: 30%;
+     
+        display: none;
+    }
+   .home .home-content .text-2{
+    font-size: 50px;
+    font-weight: 500;
+       margin-top: 10px
+}
+    .home .home-content .text-3 {
+    font-size: 30px;
+    margin: 5px 0;
+        overflow: hidden;
+        height:105px
+}
+    .home-content a{
+    color: #fff;
+    font-size: 20px;
+    padding: 5px 20px;
+ 
+    }
+    .home .home-content .text-3 span{
+        
+        color:#f40d0d 
+    }
+	
+	.social-icon{width:90%;
+	text-align:center;}
+	.top-up {
+		right:10px;
+	}
+}
+
+
+@media screen and (max-width: 991px) {
+
+    .home img{
+        width: 100%;
+    }
+    
+
+    .max-width {
+        padding: 0 50px;
+    }
+
+    .menu-btn {
+        display: block !important;
+        z-index: 999;
+    }
+
+    .menu-btn i.active:before {
+        content: "\f00d"
+    }
+
+    .navbar .menu {
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        background: #111;
+        left: -100%;
+        top: 0;
+        text-align: center;
+        padding-top: 80px;
+        transition: all 0.3s ease;
+    }
+
+    .navbar .menu li {
+        display: block !important;
+    }
+
+
+    .navbar .menu li a {
+        display: inline-block;
+        margin: 20px 0;
+        font-size: 25px;
+    }
+
+    .navbar .menu.active {
+        left: 0;
+    }
+
+
+    .menu-btn {
+        display: block;
+        z-index: 999;
+
+    }
+
+    .menu-btn i .active:before {
+
+        content: "\f00d"
+    }
+
+    .navbar.sticky .menu li a:hover {
+        color: orangered !important;
+
+    }
+
+    .about .about-content {
+        width: 50%
+    }
+
+    .max-width {
+        max-width: 800px;
+
+    }
+
+    .about .about-content .column {
+        width: 100%
+    }
+
+    .about .about-content .left {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+
+
+    .services .services-content .card {
+        width: calc(50% - 10px);
+        margin-bottom: 20px;
+       
+
+    }
+
+    .services .services-content .card {
+        width: 100% !important;
+
+    }
+    
+    .skill .skill-content .column{
+        width: 100% !important;
+     
+    }
+
+    
+
+    .about .about-content {
+        width: 100%;
+       
+    } 
+    .about .about-content .right {
+        width: 80%;
+        text-align: ;
+        margin: 0 auto;
+       
+    }
+    .about-content .left img{
+        margin-bottom: 30px
+    }
+    
+  
+    .contract .contract-content{
+  
+   width: 100%;
+   display: block;
+  
+  
+}
+    
+}
+
+
+
+/*-----------------------------------
+Responsive design End from here
+----------------------------------*/
